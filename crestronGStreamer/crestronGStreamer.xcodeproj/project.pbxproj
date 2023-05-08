@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902C0F4D2A07567E00262239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F4C2A07567E00262239 /* AppDelegate.swift */; };
+		902C0F4F2A07567E00262239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F4E2A07567E00262239 /* SceneDelegate.swift */; };
+		902C0F512A07567E00262239 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F502A07567E00262239 /* VideoViewController.swift */; };
+		902C0F542A07567E00262239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C0F522A07567E00262239 /* Main.storyboard */; };
+		902C0F562A07568000262239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902C0F552A07568000262239 /* Assets.xcassets */; };
+		902C0F592A07568000262239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C0F572A07568000262239 /* LaunchScreen.storyboard */; };
+		902C0F642A07568000262239 /* crestronGStreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F632A07568000262239 /* crestronGStreamerTests.swift */; };
+		902C0F6E2A07568000262239 /* crestronGStreamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F6D2A07568000262239 /* crestronGStreamerUITests.swift */; };
+		902C0F702A07568000262239 /* crestronGStreamerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F6F2A07568000262239 /* crestronGStreamerUITestsLaunchTests.swift */; };
+		902C0F9B2A07E84200262239 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0F9A2A07E84200262239 /* GStreamer.framework */; };
+		902C0F9D2A07EF0200262239 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0F9C2A07EF0200262239 /* libiconv.2.4.0.tbd */; };
+		902C0FA02A0816E300262239 /* gst_ios_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 902C0F9E2A0816E300262239 /* gst_ios_init.m */; };
+		902C0FA32A082DE100262239 /* GStreamerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 902C0FA22A082DE100262239 /* GStreamerService.m */; };
+		902C0FA72A088CC700262239 /* EaglUIVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 902C0FA62A088CC700262239 /* EaglUIVIew.m */; };
+		902C0FA92A088EA800262239 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FA82A088EA800262239 /* CoreGraphics.framework */; };
+		902C0FAB2A088F3400262239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FAA2A088F3400262239 /* UIKit.framework */; };
+		902C0FAD2A088F4C00262239 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FAC2A088F4C00262239 /* CoreFoundation.framework */; };
+		902C0FAF2A088F8400262239 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FAE2A088F8400262239 /* AVFoundation.framework */; };
+		902C0FB12A08901900262239 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FB02A08901900262239 /* CoreAudio.framework */; };
+		902C0FB32A08903500262239 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FB22A08903500262239 /* AudioToolbox.framework */; };
+		902C0FB52A08906800262239 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C0FB42A08906800262239 /* CoreMedia.framework */; };
+		909B6F1A2A0892AD00DC2704 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909B6F192A0892AD00DC2704 /* AssetsLibrary.framework */; };
+		909B6F1C2A08930500DC2704 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909B6F1B2A08930400DC2704 /* VideoToolbox.framework */; };
+		909B6F1E2A08AB0F00DC2704 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B6F1D2A08AB0F00DC2704 /* VideoViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902C0F602A07568000262239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902C0F412A07567E00262239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902C0F482A07567E00262239;
+			remoteInfo = crestronGStreamer;
+		};
+		902C0F6A2A07568000262239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902C0F412A07567E00262239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902C0F482A07567E00262239;
+			remoteInfo = crestronGStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		902C0F492A07567E00262239 /* crestronGStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crestronGStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902C0F4C2A07567E00262239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		902C0F4E2A07567E00262239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		902C0F502A07567E00262239 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		902C0F532A07567E00262239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		902C0F552A07568000262239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902C0F582A07568000262239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		902C0F5A2A07568000262239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902C0F5F2A07568000262239 /* crestronGStreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crestronGStreamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902C0F632A07568000262239 /* crestronGStreamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crestronGStreamerTests.swift; sourceTree = "<group>"; };
+		902C0F692A07568000262239 /* crestronGStreamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crestronGStreamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902C0F6D2A07568000262239 /* crestronGStreamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crestronGStreamerUITests.swift; sourceTree = "<group>"; };
+		902C0F6F2A07568000262239 /* crestronGStreamerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crestronGStreamerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		902C0F7C2A07585600262239 /* crestronGStreamer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crestronGStreamer-Bridging-Header.h"; sourceTree = "<group>"; };
+		902C0F9A2A07E84200262239 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework; sourceTree = "<group>"; };
+		902C0F9C2A07EF0200262239 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		902C0F9E2A0816E300262239 /* gst_ios_init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gst_ios_init.m; path = GSWrapper/gst_ios_init.m; sourceTree = "<group>"; };
+		902C0F9F2A0816E300262239 /* gst_ios_init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gst_ios_init.h; path = GSWrapper/gst_ios_init.h; sourceTree = "<group>"; };
+		902C0FA12A082DE100262239 /* GStreamerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GStreamerService.h; path = GSWrapper/GStreamerService.h; sourceTree = "<group>"; };
+		902C0FA22A082DE100262239 /* GStreamerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GStreamerService.m; path = GSWrapper/GStreamerService.m; sourceTree = "<group>"; };
+		902C0FA42A085DE300262239 /* GStreamerServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GStreamerServiceDelegate.h; path = GSWrapper/GStreamerServiceDelegate.h; sourceTree = "<group>"; };
+		902C0FA52A088CC700262239 /* EaglUIVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaglUIVIew.h; sourceTree = "<group>"; };
+		902C0FA62A088CC700262239 /* EaglUIVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaglUIVIew.m; sourceTree = "<group>"; };
+		902C0FA82A088EA800262239 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		902C0FAA2A088F3400262239 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		902C0FAC2A088F4C00262239 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		902C0FAE2A088F8400262239 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		902C0FB02A08901900262239 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		902C0FB22A08903500262239 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		902C0FB42A08906800262239 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		909B6F192A0892AD00DC2704 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		909B6F1B2A08930400DC2704 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		909B6F1D2A08AB0F00DC2704 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902C0F462A07567E00262239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909B6F1C2A08930500DC2704 /* VideoToolbox.framework in Frameworks */,
+				909B6F1A2A0892AD00DC2704 /* AssetsLibrary.framework in Frameworks */,
+				902C0FB52A08906800262239 /* CoreMedia.framework in Frameworks */,
+				902C0FB32A08903500262239 /* AudioToolbox.framework in Frameworks */,
+				902C0FB12A08901900262239 /* CoreAudio.framework in Frameworks */,
+				902C0FAF2A088F8400262239 /* AVFoundation.framework in Frameworks */,
+				902C0FAD2A088F4C00262239 /* CoreFoundation.framework in Frameworks */,
+				902C0FAB2A088F3400262239 /* UIKit.framework in Frameworks */,
+				902C0FA92A088EA800262239 /* CoreGraphics.framework in Frameworks */,
+				902C0F9D2A07EF0200262239 /* libiconv.2.4.0.tbd in Frameworks */,
+				902C0F9B2A07E84200262239 /* GStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C0F5C2A07568000262239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C0F662A07568000262239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902C0F402A07567E00262239 = {
+			isa = PBXGroup;
+			children = (
+				902C0F4B2A07567E00262239 /* crestronGStreamer */,
+				902C0F622A07568000262239 /* crestronGStreamerTests */,
+				902C0F6C2A07568000262239 /* crestronGStreamerUITests */,
+				902C0F4A2A07567E00262239 /* Products */,
+				902C0F812A075D8700262239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		902C0F4A2A07567E00262239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902C0F492A07567E00262239 /* crestronGStreamer.app */,
+				902C0F5F2A07568000262239 /* crestronGStreamerTests.xctest */,
+				902C0F692A07568000262239 /* crestronGStreamerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902C0F4B2A07567E00262239 /* crestronGStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				902C0FA52A088CC700262239 /* EaglUIVIew.h */,
+				902C0FA62A088CC700262239 /* EaglUIVIew.m */,
+				902C0F4C2A07567E00262239 /* AppDelegate.swift */,
+				902C0F4E2A07567E00262239 /* SceneDelegate.swift */,
+				902C0F502A07567E00262239 /* VideoViewController.swift */,
+				909B6F1D2A08AB0F00DC2704 /* VideoViewModel.swift */,
+				902C0F802A07586F00262239 /* GSWrapper */,
+				902C0F7C2A07585600262239 /* crestronGStreamer-Bridging-Header.h */,
+				902C0F522A07567E00262239 /* Main.storyboard */,
+				902C0F552A07568000262239 /* Assets.xcassets */,
+				902C0F572A07568000262239 /* LaunchScreen.storyboard */,
+				902C0F5A2A07568000262239 /* Info.plist */,
+			);
+			path = crestronGStreamer;
+			sourceTree = "<group>";
+		};
+		902C0F622A07568000262239 /* crestronGStreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				902C0F632A07568000262239 /* crestronGStreamerTests.swift */,
+			);
+			path = crestronGStreamerTests;
+			sourceTree = "<group>";
+		};
+		902C0F6C2A07568000262239 /* crestronGStreamerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				902C0F6D2A07568000262239 /* crestronGStreamerUITests.swift */,
+				902C0F6F2A07568000262239 /* crestronGStreamerUITestsLaunchTests.swift */,
+			);
+			path = crestronGStreamerUITests;
+			sourceTree = "<group>";
+		};
+		902C0F802A07586F00262239 /* GSWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				902C0FA42A085DE300262239 /* GStreamerServiceDelegate.h */,
+				902C0FA12A082DE100262239 /* GStreamerService.h */,
+				902C0FA22A082DE100262239 /* GStreamerService.m */,
+				902C0F9F2A0816E300262239 /* gst_ios_init.h */,
+				902C0F9E2A0816E300262239 /* gst_ios_init.m */,
+			);
+			name = GSWrapper;
+			sourceTree = "<group>";
+		};
+		902C0F812A075D8700262239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909B6F1B2A08930400DC2704 /* VideoToolbox.framework */,
+				909B6F192A0892AD00DC2704 /* AssetsLibrary.framework */,
+				902C0FB42A08906800262239 /* CoreMedia.framework */,
+				902C0FB22A08903500262239 /* AudioToolbox.framework */,
+				902C0FB02A08901900262239 /* CoreAudio.framework */,
+				902C0FAE2A088F8400262239 /* AVFoundation.framework */,
+				902C0FAC2A088F4C00262239 /* CoreFoundation.framework */,
+				902C0FAA2A088F3400262239 /* UIKit.framework */,
+				902C0FA82A088EA800262239 /* CoreGraphics.framework */,
+				902C0F9C2A07EF0200262239 /* libiconv.2.4.0.tbd */,
+				902C0F9A2A07E84200262239 /* GStreamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902C0F482A07567E00262239 /* crestronGStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902C0F732A07568000262239 /* Build configuration list for PBXNativeTarget "crestronGStreamer" */;
+			buildPhases = (
+				902C0F452A07567E00262239 /* Sources */,
+				902C0F462A07567E00262239 /* Frameworks */,
+				902C0F472A07567E00262239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crestronGStreamer;
+			productName = crestronGStreamer;
+			productReference = 902C0F492A07567E00262239 /* crestronGStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902C0F5E2A07568000262239 /* crestronGStreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902C0F762A07568000262239 /* Build configuration list for PBXNativeTarget "crestronGStreamerTests" */;
+			buildPhases = (
+				902C0F5B2A07568000262239 /* Sources */,
+				902C0F5C2A07568000262239 /* Frameworks */,
+				902C0F5D2A07568000262239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902C0F612A07568000262239 /* PBXTargetDependency */,
+			);
+			name = crestronGStreamerTests;
+			productName = crestronGStreamerTests;
+			productReference = 902C0F5F2A07568000262239 /* crestronGStreamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		902C0F682A07568000262239 /* crestronGStreamerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902C0F792A07568000262239 /* Build configuration list for PBXNativeTarget "crestronGStreamerUITests" */;
+			buildPhases = (
+				902C0F652A07568000262239 /* Sources */,
+				902C0F662A07568000262239 /* Frameworks */,
+				902C0F672A07568000262239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902C0F6B2A07568000262239 /* PBXTargetDependency */,
+			);
+			name = crestronGStreamerUITests;
+			productName = crestronGStreamerUITests;
+			productReference = 902C0F692A07568000262239 /* crestronGStreamerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902C0F412A07567E00262239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					902C0F482A07567E00262239 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					902C0F5E2A07568000262239 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 902C0F482A07567E00262239;
+					};
+					902C0F682A07568000262239 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 902C0F482A07567E00262239;
+					};
+				};
+			};
+			buildConfigurationList = 902C0F442A07567E00262239 /* Build configuration list for PBXProject "crestronGStreamer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902C0F402A07567E00262239;
+			productRefGroup = 902C0F4A2A07567E00262239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902C0F482A07567E00262239 /* crestronGStreamer */,
+				902C0F5E2A07568000262239 /* crestronGStreamerTests */,
+				902C0F682A07568000262239 /* crestronGStreamerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902C0F472A07567E00262239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902C0F592A07568000262239 /* LaunchScreen.storyboard in Resources */,
+				902C0F562A07568000262239 /* Assets.xcassets in Resources */,
+				902C0F542A07567E00262239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C0F5D2A07568000262239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C0F672A07568000262239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902C0F452A07567E00262239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902C0F512A07567E00262239 /* VideoViewController.swift in Sources */,
+				902C0F4D2A07567E00262239 /* AppDelegate.swift in Sources */,
+				902C0FA32A082DE100262239 /* GStreamerService.m in Sources */,
+				902C0FA72A088CC700262239 /* EaglUIVIew.m in Sources */,
+				909B6F1E2A08AB0F00DC2704 /* VideoViewModel.swift in Sources */,
+				902C0F4F2A07567E00262239 /* SceneDelegate.swift in Sources */,
+				902C0FA02A0816E300262239 /* gst_ios_init.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C0F5B2A07568000262239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902C0F642A07568000262239 /* crestronGStreamerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902C0F652A07568000262239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902C0F6E2A07568000262239 /* crestronGStreamerUITests.swift in Sources */,
+				902C0F702A07568000262239 /* crestronGStreamerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902C0F612A07568000262239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902C0F482A07567E00262239 /* crestronGStreamer */;
+			targetProxy = 902C0F602A07568000262239 /* PBXContainerItemProxy */;
+		};
+		902C0F6B2A07568000262239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902C0F482A07567E00262239 /* crestronGStreamer */;
+			targetProxy = 902C0F6A2A07568000262239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		902C0F522A07567E00262239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902C0F532A07567E00262239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		902C0F572A07568000262239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902C0F582A07568000262239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902C0F712A07568000262239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		902C0F722A07568000262239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902C0F742A07568000262239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HGGYR2HQ3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n$(HOME)/Library/Developer/GStreamer/iPhone.sdk/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers",
+					GSWrapper,
+				);
+				INFOPLIST_FILE = crestronGStreamer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-lc++",
+					"-Wl,-no_compact_unwind",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjb.crestronGStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "crestronGStreamer/crestronGStreamer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902C0F752A07568000262239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HGGYR2HQ3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n\n\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"\n$(HOME)/Library/Developer/GStreamer/iPhone.sdk/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers",
+					GSWrapper,
+				);
+				INFOPLIST_FILE = crestronGStreamer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-lc++",
+					"-Wl,-no_compact_unwind",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjb.crestronGStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "crestronGStreamer/crestronGStreamer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		902C0F772A07568000262239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HGGYR2HQ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjb.crestronGStreamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crestronGStreamer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crestronGStreamer";
+			};
+			name = Debug;
+		};
+		902C0F782A07568000262239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HGGYR2HQ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjb.crestronGStreamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crestronGStreamer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crestronGStreamer";
+			};
+			name = Release;
+		};
+		902C0F7A2A07568000262239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HGGYR2HQ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjb.crestronGStreamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crestronGStreamer;
+			};
+			name = Debug;
+		};
+		902C0F7B2A07568000262239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HGGYR2HQ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjb.crestronGStreamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crestronGStreamer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902C0F442A07567E00262239 /* Build configuration list for PBXProject "crestronGStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902C0F712A07568000262239 /* Debug */,
+				902C0F722A07568000262239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902C0F732A07568000262239 /* Build configuration list for PBXNativeTarget "crestronGStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902C0F742A07568000262239 /* Debug */,
+				902C0F752A07568000262239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902C0F762A07568000262239 /* Build configuration list for PBXNativeTarget "crestronGStreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902C0F772A07568000262239 /* Debug */,
+				902C0F782A07568000262239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902C0F792A07568000262239 /* Build configuration list for PBXNativeTarget "crestronGStreamerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902C0F7A2A07568000262239 /* Debug */,
+				902C0F7B2A07568000262239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902C0F412A07567E00262239 /* Project object */;
+}
