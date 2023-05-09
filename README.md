@@ -14,5 +14,4 @@ Warnings:
 
 Issues and next steps:
 - Tests: I would implement tests to use the ViewModel outside of the ViewController. This would help flush out issues. I would also add functionality to GStreamerService skip to the end of the video to test endOfStream handling. 
-- I would need to investigate further if the current stop video handling is truly graceful. I think I would need to get deeper into the GStreamer framework and possibly add to the GStreamerService functionality.
-- Playing a video after stopping the playback crashes at the moment. I would need more time to investigate what is causing the crash. This wasn't really part of the project ask, so I didn't want to spend too much time on this. It's possiblly related to the stop/deinit of the GStreamerService. This report sounds like it could possibly be the same issue: https://gitlab.freedesktop.org/gstreamer/gstreamer/-/issues/2381
+- Playing a video after stopping the playback crashes at the moment. I would need more time to investigate what is causing the crash. This wasn't really part of the project ask, so I didn't want to spend too much time on this. I used the latest GStreamer framework and it seems to be an issue with that. This report sounds like it could be the same issue: https://gitlab.freedesktop.org/gstreamer/gstreamer/-/issues/2381
